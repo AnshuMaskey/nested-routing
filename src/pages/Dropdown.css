@@ -1,0 +1,60 @@
+/* .submenu {
+    width: 10rem;
+    position: absolute;
+    margin-top: 50px;
+    margin-left:-175px;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  
+  .submenu li {
+    background: rgb(12, 16, 16);
+    cursor: pointer;
+    text-align: center;
+    width: 10rem;
+    height: 5rem;
+
+
+  }
+  
+  .submenu li a:hover {
+    background: rgba(0, 87, 175, 0.362);
+    width: 10rem;
+    height: 5rem;
+
+  }
+  
+  
+  
+  .submenu-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+  } */
+  .submenu{
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    left: 0;
+    top: 48px;
+  }
+
+    /* div{
+      @include transform(translate(0,-100%));
+      @include transition(all 0.5s 0.1s);
+      position: relative;
+    } */
+  .submenu li{
+      display:block;
+      padding: 0;
+      width: 100%;
+      background: #7fd1d5 !important;
+    }
+  
+  .submenu.clicked {
+    display: none;
+  }
